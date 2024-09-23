@@ -1,0 +1,60 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	margin: 0 0;
+	position: absolute;
+	font: 16px Verdana;
+	color: #eee;
+	height: 25px;
+	top: calc( 100vh - 30px );
+	text-shadow: 0 0 2px white;
+}
+p a {
+	text-decoration: none;
+	color: #aaa;
+}
+span {
+	font-size: 11px;
+}
+p > a:first-of-type {
+	font-size: 20px;
+}
+body {
+	overflow: hidden;
+}
+.audio-controls {
+    position: absolute; 
+    top: 10px;
+    left: 13%; 
+    transform: translateX(-50%);
+    z-index: 10;
+    background: rgba(8, 0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(32, 32, 32, 0.2);
+}
+.click-me {
+    position: absolute;
+    bottom: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(39, 38, 38, 0.123);
+    color: white;
+    text-align: center;
+    line-height: 40px; 
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(53, 53, 53, 0.2);
+}
+
+.click-me.left {
+    left: 10px; 
+}
+
+.click-me.right {
+    right: 10px;
+}
